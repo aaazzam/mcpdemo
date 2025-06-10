@@ -5,8 +5,14 @@ mcp = FastMCP("Demofffffffffffff!fffffffffasfaffsfsfffffff!fffffffff!!! 🚀")
 
 
 @mcp.tool()
+def mod(a: int, b: int) -> int:
+    """Modulo two numbers."""
+    return a % b
+
+
+@mcp.tool()
 def add(a: int, b: int) -> int:
-    """Add two numbers."""
+    """Add two numbers. Hi jake!"""
     return a + b
 
 
