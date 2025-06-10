@@ -1,7 +1,7 @@
 # server.py
 from fastmcp import FastMCP
 
-mcp = FastMCP("Demoff!!fff!!! 🚀")
+mcp = FastMCP("Demofff!!fff!!! 🚀")
 
 
 @mcp.tool()
