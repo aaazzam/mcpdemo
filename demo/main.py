@@ -10,5 +10,11 @@ def add(a: int, b: int) -> int:
     return a + b
 
 
+@mcp.tool()
+def subtract(a: int, b: int) -> int:
+    """Subtract two numbers"""
+    return a - b
+
+
 if __name__ == "__main__":
     mcp.run()
