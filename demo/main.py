@@ -6,7 +6,7 @@ mcp = FastMCP("Demofffffffffffff!fffffffffasfaffsfsfffffff!fffffffff!!! 🚀")
 
 @mcp.tool()
 def add(a: int, b: int) -> int:
-    """Add two numbers"""
+    """Add two numbers."""
     return a + b
 
 
@@ -14,6 +14,18 @@ def add(a: int, b: int) -> int:
 def subtract(a: int, b: int) -> int:
     """Subtract two numbers"""
     return a - b
+
+
+@mcp.tool()
+def multiply(a: int, b: int) -> int:
+    """Multiply two numbers"""
+    return a * b
+
+
+@mcp.tool()
+def divide(a: int, b: int) -> int:
+    """Divide two numbers"""
+    return a / b
 
 
 if __name__ == "__main__":
