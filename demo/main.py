@@ -5,6 +5,12 @@ mcp = FastMCP("Demofffffffffffff!fffffffffasfaffsfsfffffff!fffffffff!!! 🚀")
 
 
 @mcp.tool()
+def modulo(a: int, b: int) -> int:
+    """Modulo two numbers"""
+    return a % b
+
+
+@mcp.tool()
 def subtract(a: int, b: int) -> int:
     """Subtract two numbers"""
     return a - b
