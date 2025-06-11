@@ -5,7 +5,7 @@ mcp = FastMCP("Demofffffffffffff!fffffffffasfaffsfsfffffff!fffffffff!!! 🚀")
 
 
 @mcp.tool()
-def modulo(a: int, b: int) -> int:
+def super_modulo(a: int, b: int) -> int:
     """Modulo two numbers"""
     return a % b
 
