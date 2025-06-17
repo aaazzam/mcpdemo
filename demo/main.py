@@ -11,9 +11,9 @@ def multiply(a: int, b: int) -> int:
 
 
 @mcp.tool()
-def divide(a: int, b: int) -> int:
-    """Divide two numbers"""
-    return a / b
+def add(a: int, b: int) -> int:
+    """Add two numbers"""
+    return a + b
 
 
 @mcp.tool()
