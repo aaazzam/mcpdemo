@@ -17,6 +17,12 @@ def add(a: int, b: int) -> int:
 
 
 @mcp.tool()
+def subtract(a: int, b: int, c: int) -> int:
+    """Subtract three numbers"""
+    return a - b - c
+
+
+@mcp.tool()
 def square(a: int) -> int:
     """Square a number"""
     return a * a
