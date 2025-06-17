@@ -2,7 +2,7 @@
 from fastmcp import FastMCP
 
 mcp = FastMCP(
-    "Demoff!fffffffffffsfffsffffffffffffffkffffffffasfaffsfsfffffff!fffffffff!!! 🚀"
+    "Demoff!fffffffffffsfffsfffffffffffffffkffffffffasfaffsfsfffffff!fffffffff!!! 🚀"
 )
 
 
