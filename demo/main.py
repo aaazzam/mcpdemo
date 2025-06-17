@@ -17,9 +17,9 @@ def add(a: int, b: int) -> int:
 
 
 @mcp.tool()
-def subtract(a: int, b: int) -> int:
-    """Subtract two numbers"""
-    return a - b
+def subtract(a: int, b: int, c: int) -> int:
+    """Subtract three numbers"""
+    return a - b - c
 
 
 @mcp.tool()
