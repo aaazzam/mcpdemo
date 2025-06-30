@@ -32,13 +32,19 @@ def cube(a: int) -> int:
 @mcp.tool()
 def square_root(a: int) -> float:
     """Square root of a number"""
-    return a ** (1 / 3)
+    return a ** (1 / 2)
 
 
 @mcp.tool()
 def cube_root(a: int) -> float:
     """Cube root of a number"""
     return a ** (1 / 3)
+
+
+@mcp.tool()
+def get_current_time() -> str:
+    """Get the current time"""
+    return datetime.now().strftime("%H:%M:%S")
 
 
 if __name__ == "__main__":
