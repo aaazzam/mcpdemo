@@ -1,5 +1,6 @@
 # server.py
 from fastmcp import FastMCP
+import math
 
 mcp = FastMCP("Demo! 🚀")
 
@@ -32,6 +33,12 @@ def cube(a: int) -> int:
 def square_root(a: int) -> float:
     """Square root of a number"""
     return math.sqrt(a)
+
+
+@mcp.tool()
+def cube_root(a: int) -> float:
+    """Cube root of a number"""
+    return a ** (1 / 3)
 
 
 if __name__ == "__main__":
