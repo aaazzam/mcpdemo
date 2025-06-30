@@ -32,7 +32,7 @@ def cube(a: int) -> int:
 @mcp.tool()
 def square_root(a: int) -> float:
     """Square root of a number"""
-    return math.sqrt(a)
+    return a ** (1 / 3)
 
 
 @mcp.tool()
