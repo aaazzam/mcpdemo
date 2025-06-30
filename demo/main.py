@@ -34,6 +34,12 @@ def square_root(a: int) -> float:
     return math.sqrt(a)
 
 
+@mcp.tool()
+def cube_root(a: int) -> float:
+    """Cube root of a number"""
+    return a ** (1 / 3)
+
+
 if __name__ == "__main__":
     mcp.run()
 #
