@@ -1,7 +1,7 @@
 # server.py
 from fastmcp import FastMCP
 
-mcp = FastMCP("Demo?fffasfffafsfffffffFfffffafsffffffaffsfasf 🚀")
+mcp = FastMCP("Demo! 🚀")
 
 
 @mcp.tool()
@@ -26,6 +26,12 @@ def square(a: int) -> int:
 def cube(a: int) -> int:
     """Cube a number!"""
     return a * a * a
+
+
+@mcp.tool()
+def square_root(a: int) -> float:
+    """Square root of a number"""
+    return math.sqrt(a)
 
 
 if __name__ == "__main__":
