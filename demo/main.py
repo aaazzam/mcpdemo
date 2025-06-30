@@ -22,6 +22,12 @@ def square(a: int) -> int:
     return a * a
 
 
+@mcp.tool()
+def cube(a: int) -> int:
+    """Cube a number"""
+    return a * a * a
+
+
 if __name__ == "__main__":
     mcp.run()
 #
