@@ -1,5 +1,6 @@
 # server.py
 from fastmcp import FastMCP
+import math
 
 mcp = FastMCP("Demo! 🚀")
 
