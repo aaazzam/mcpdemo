@@ -24,7 +24,7 @@ def square(a: int) -> int:
 
 @mcp.tool()
 def cube(a: int) -> int:
-    """Cube a number"""
+    """Cube a number!"""
     return a * a * a
 
 
