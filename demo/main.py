@@ -4,7 +4,7 @@ import math
 from dataclasses import dataclass
 from datetime import datetime
 
-mcp = FastMCP("Demo! 🚀", stateless_http=True)
+mcp = FastMCP("Demo! 🚀")
 
 
 @dataclass
@@ -61,8 +61,3 @@ def square_root(a: int) -> float:
 def cube_root(a: int) -> float:
     """Cube root of a number"""
     return a ** (1 / 3)
-
-
-if __name__ == "__main__":
-    mcp.run()
-#
