@@ -5,7 +5,7 @@ from dataclasses import dataclass
 from datetime import datetime
 from fastmcp.context import Context
 
-mcp = FastMCP("Demo! 🚀")
+mcp = FastMCP("Demo! 🚀", stateless_http=True)
 
 
 @dataclass
