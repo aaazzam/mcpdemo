@@ -1,9 +1,8 @@
 # server.py
-from fastmcp import FastMCP
+from fastmcp import FastMCP, Context
 import math
 from dataclasses import dataclass
 from datetime import datetime
-from fastmcp.context import Context
 
 mcp = FastMCP("Demo! 🚀", stateless_http=True)
 
