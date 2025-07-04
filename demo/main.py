@@ -7,26 +7,6 @@ from datetime import datetime
 mcp = FastMCP("Demo! 🚀")
 
 
-@dataclass
-class Person:
-    name: str
-
-
-@mcp.tool
-async def ask_for_name(context: Context) -> str:
-    """Ask for user's name using elicitation"""
-    print("before elicit")
-    result = await context.elicit(
-        message="What is your name?",
-        response_type=Person,
-    )
-    print("after elicit")
-    if result.action == "accept":
-        return f"Hello, {result.data.name}!"
-    else:
-        return "No name provided."
-
-
 @mcp.tool()
 def multiply(a: int, b: int) -> int:
     """Multiply two numbers"""
