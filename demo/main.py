@@ -23,3 +23,15 @@ def add(a: int, b: int) -> int:
 def square(a: int) -> int:
     """Square a number"""
     return a * a
+
+
+@mcp.tool()
+def cube(a: int) -> int:
+    """Cube a number"""
+    return a * a * a
+
+
+@mcp.tool()
+def square_root(a: int) -> float:
+    """Square root of a number"""
+    return a ** (1 / 2)
