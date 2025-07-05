@@ -4,7 +4,7 @@ import math
 from dataclasses import dataclass
 from datetime import datetime
 
-mcp = FastMCP("Demo! 🚀")
+mcp = FastMCP("Demo!!! 🚀")
 
 
 @mcp.tool()
