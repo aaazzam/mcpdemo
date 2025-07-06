@@ -4,7 +4,7 @@ import math
 from dataclasses import dataclass
 from datetime import datetime
 
-mcp = FastMCP("Demo!!!!s?!! 🚀")
+mcp = FastMCP("Demo!!!!!s?!! 🚀")
 
 
 @mcp.tool()
@@ -23,3 +23,15 @@ def add(a: int, b: int) -> int:
 def square(a: int) -> int:
     """Square a number"""
     return a * a
+
+
+@mcp.tool()
+def subtract(a: int, b: int) -> int:
+    """Subtract two numbers"""
+    return a - b
+
+
+@mcp.tool()
+def divide(a: int, b: int) -> int:
+    """Divide two numbers"""
+    return a / b
