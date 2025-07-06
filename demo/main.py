@@ -35,3 +35,9 @@ def subtract(a: int, b: int) -> int:
 def divide(a: int, b: int) -> int:
     """Divide two numbers"""
     return a / b
+
+
+@mcp.tool()
+def get_current_time() -> str:
+    """Get the current time"""
+    return datetime.now().strftime("%Y-%m-%d %H:%M:%S")
